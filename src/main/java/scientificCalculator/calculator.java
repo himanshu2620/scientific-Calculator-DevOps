@@ -15,7 +15,7 @@ public class calculator {
             System.out.println("Press 1 to find square root of a number");
             System.out.println("Press 2 to find factorial of a number");
             System.out.println("Press 3 to find natural log (base e) of a number");
-            System.out.println("Press 4 to find compute power ");
+            System.out.println("Press 4 to compute power ");
             System.out.println("Press any other key to exit !!!");
             Scanner sc = new Scanner(System.in);
 
