@@ -1,0 +1,8 @@
+---
+- name: pull docker image
+  hosts: all
+  tasks:
+    - name: Pull scientific calculator devops image
+      docker_image:
+        name: himanshu2620/scientific-calculator-devops
+        source: pull

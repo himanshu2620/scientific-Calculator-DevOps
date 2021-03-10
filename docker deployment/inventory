@@ -1,0 +1,6 @@
+
+[ubuntu18]
+192.168.0.171 ansible_user=rover
+
+[ubuntu20]
+192.168.0.169 ansible_user=juno
