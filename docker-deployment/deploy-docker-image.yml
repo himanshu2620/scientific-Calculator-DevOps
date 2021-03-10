@@ -3,7 +3,8 @@
   hosts: all
   tasks:
     - name: Pull scientific calculator devops image
-      ansible_python_interpreter: /usr/bin/python3
+      vars:
+        ansible_python_interpreter: /usr/bin/python3
       docker_image:
         name: himanshu2620/scientific-calculator-devops
         source: pull
