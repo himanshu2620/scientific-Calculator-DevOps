@@ -2,9 +2,10 @@ package scientificCalculator;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class calculator {
-
+    private static final Logger logger = LogManager.getLogger(calculator.class);
     public calculator(){};
 
     public static void main(String[] args){
@@ -24,6 +25,7 @@ public class calculator {
                 curr_choice = sc.nextInt();
             }
             catch (InputMismatchException error){
+                logger.error("an error occurred!!!!");
                 return;
             }
             if(curr_choice==1){
@@ -32,6 +34,7 @@ public class calculator {
                 try {
                     num = sc.nextDouble();
                 }catch (InputMismatchException error){
+                    logger.error("The input entered is not a supported type, enter a valid type!!!");
                     return;
                 }
                 if(num<0){
@@ -47,6 +50,7 @@ public class calculator {
                 try{
                     num = sc.nextInt();
                 }catch (InputMismatchException error){
+                    logger.error("The input entered is not a supported type, enter a valid type!!!");
                     return;
                 }
                 if(num<0){
@@ -62,10 +66,11 @@ public class calculator {
                 try {
                     num = sc.nextDouble();
                 }catch (InputMismatchException error){
+                    logger.error("The input entered is not a supported type, enter a valid type!!!");
                     return;
                 }
                 if(num<=0){
-                    System.out.println("enter a postive value");
+                    System.out.println("enter a positive value");
                 }
                 else{
                     System.out.println("Natural logarithm of " + num + " is " + calc.getNaturalLog(num));
@@ -79,6 +84,7 @@ public class calculator {
                     x = sc.nextDouble();
                     b = sc.nextDouble();
                 }catch(InputMismatchException error){
+                    logger.error("The input entered is not a supported type, enter a valid type!!!");
                     return;
                 }
                 System.out.println("Result is " + calc.getPower(x,b));
@@ -90,25 +96,35 @@ public class calculator {
     }
 
     public double getSquareRoot(double num){
-        return Math.sqrt(num);
+        logger.info("[SQUAREROOT] - " + num);
+        double res =  Math.sqrt(num);
+        logger.info("[RESULT - SQUAREROOT] - " + res);
+        return res;
     }
 
     public long getFactorial(int num){
+        logger.info("[FACTORIAL] - " + num);
         long res=1;
         if(num>=1) {
             for (int i = 1; i <= num; i++) {
                 res *= i;
             }
         }
+        logger.info("[RESULT - FACTORIAL] - " + res);
         return res;
     }
 
     public double getNaturalLog(double num){
-        return Math.log(num);
+        logger.info("[NATURALLOG] - " + num);
+        double res = Math.log(num);
+        logger.info("[RESULT - NATURALLOG] - " + res);
+        return res;
     }
 
     public double getPower(double x,double b){
-        return Math.pow(x,b);
+        logger.info("[POWER] - " + x + " " + b);
+        double res = Math.pow(x,b);
+        logger.info("[RESULT - POWER] - " + res);
+        return res;
     }
-
 }
