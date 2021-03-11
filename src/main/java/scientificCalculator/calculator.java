@@ -11,7 +11,7 @@ public class calculator {
 
         while(true){
             calculator calc = new calculator();
-            System.out.println("Welcome to Scientific scientificCalculator.calculator");
+            System.out.println("Welcome to Scientific calculator");
             System.out.println("Press 1 to find square root of a number");
             System.out.println("Press 2 to find factorial of a number");
             System.out.println("Press 3 to find natural log (base e) of a number");
