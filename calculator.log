@@ -223,3 +223,51 @@
 11/Mar/2021:23:07:44 567 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 20.615528128088304
 11/Mar/2021:23:07:48 295 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 58977.0
 11/Mar/2021:23:07:48 296 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 242.85180666406416
+12/Mar/2021:21:53:10 075 [calculator.java] [INFO] scientificCalculator.calculator [NATURALLOG] - 4.0
+12/Mar/2021:21:53:10 079 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - NATURALLOG] - 1.3862943611198906
+12/Mar/2021:21:53:10 080 [calculator.java] [INFO] scientificCalculator.calculator [NATURALLOG] - 100.0
+12/Mar/2021:21:53:10 081 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - NATURALLOG] - 4.605170185988092
+12/Mar/2021:21:53:10 081 [calculator.java] [INFO] scientificCalculator.calculator [NATURALLOG] - 1.0
+12/Mar/2021:21:53:10 082 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - NATURALLOG] - 0.0
+12/Mar/2021:21:53:10 083 [calculator.java] [INFO] scientificCalculator.calculator [NATURALLOG] - 2.7
+12/Mar/2021:21:53:10 083 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - NATURALLOG] - 0.9932517730102834
+12/Mar/2021:21:53:10 084 [calculator.java] [INFO] scientificCalculator.calculator [NATURALLOG] - 80.0
+12/Mar/2021:21:53:10 084 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - NATURALLOG] - 4.382026634673881
+12/Mar/2021:21:53:10 085 [calculator.java] [INFO] scientificCalculator.calculator [NATURALLOG] - 11.0
+12/Mar/2021:21:53:10 085 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - NATURALLOG] - 2.3978952727983707
+12/Mar/2021:21:53:10 087 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 256.0
+12/Mar/2021:21:53:10 087 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 16.0
+12/Mar/2021:21:53:10 088 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 8.0
+12/Mar/2021:21:53:10 088 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 2.8284271247461903
+12/Mar/2021:21:53:10 088 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 15.5
+12/Mar/2021:21:53:10 089 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 3.9370039370059056
+12/Mar/2021:21:53:10 089 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 256.0
+12/Mar/2021:21:53:10 090 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 16.0
+12/Mar/2021:21:53:10 090 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 8.0
+12/Mar/2021:21:53:10 091 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 2.8284271247461903
+12/Mar/2021:21:53:10 091 [calculator.java] [INFO] scientificCalculator.calculator [SQUAREROOT] - 15.5
+12/Mar/2021:21:53:10 092 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - SQUAREROOT] - 3.9370039370059056
+12/Mar/2021:21:53:10 093 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 5
+12/Mar/2021:21:53:10 094 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 120
+12/Mar/2021:21:53:10 095 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 10
+12/Mar/2021:21:53:10 096 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 3628800
+12/Mar/2021:21:53:10 097 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 0
+12/Mar/2021:21:53:10 097 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 1
+12/Mar/2021:21:53:10 098 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 0
+12/Mar/2021:21:53:10 099 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 1
+12/Mar/2021:21:53:10 100 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 6
+12/Mar/2021:21:53:10 101 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 720
+12/Mar/2021:21:53:10 101 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 11
+12/Mar/2021:21:53:10 102 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 39916800
+12/Mar/2021:21:53:10 103 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 5.0 2.0
+12/Mar/2021:21:53:10 104 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 25.0
+12/Mar/2021:21:53:10 104 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 2.5 2.0
+12/Mar/2021:21:53:10 105 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 6.25
+12/Mar/2021:21:53:10 105 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 2.5 2.5
+12/Mar/2021:21:53:10 106 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 9.882117688026186
+12/Mar/2021:21:53:10 107 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 4.0 2.0
+12/Mar/2021:21:53:10 108 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 16.0
+12/Mar/2021:21:53:10 109 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 2.0 0.0
+12/Mar/2021:21:53:10 110 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 1.0
+12/Mar/2021:21:53:10 111 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 3.0 3.0
+12/Mar/2021:21:53:10 111 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 27.0
