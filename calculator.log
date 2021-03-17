@@ -463,3 +463,12 @@
 12/Mar/2021:22:21:47 459 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 1.0
 12/Mar/2021:22:21:47 459 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - 3.0 3.0
 12/Mar/2021:22:21:47 460 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 27.0
+16/Mar/2021:12:23:04 582 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 25
+16/Mar/2021:12:23:04 587 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - 7034535277573963776
+16/Mar/2021:12:23:15 826 [calculator.java] [INFO] scientificCalculator.calculator [FACTORIAL] - 26
+16/Mar/2021:12:23:15 826 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - FACTORIAL] - -1569523520172457984
+16/Mar/2021:12:23:22 870 [calculator.java] [ERROR] scientificCalculator.calculator an error occurred!!!!
+16/Mar/2021:13:13:45 896 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - -2.0 2.0
+16/Mar/2021:13:13:45 901 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 4.0
+16/Mar/2021:13:13:58 791 [calculator.java] [INFO] scientificCalculator.calculator [POWER] - -2.0 -2.0
+16/Mar/2021:13:13:58 791 [calculator.java] [INFO] scientificCalculator.calculator [RESULT - POWER] - 0.25
